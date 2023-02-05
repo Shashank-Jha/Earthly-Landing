@@ -72,12 +72,14 @@ header > img {
   background-color: black;
   color: white;
 }
-.products > .catalog {
-  display: flex;
+
+.catalog{
+    display: flex;
 }
 
 .product {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -367,9 +369,13 @@ footer > a {
   .navbar > a {
     width: 50%;
   }
-  section .products {
-    display: flex;
-    flex-direction: column;
+
+  .product-title{
+    font-size:large;
+  }
+
+  .product-detail{
+    font-size: x-small;
   }
 
   footer {
