@@ -370,6 +370,12 @@ footer > a {
     width: 50%;
   }
 
+  .catalog{
+    width: 80%;
+  }
+  .product{
+    margin: 0.1rem;
+  }
   .product-title{
     font-size:large;
   }
