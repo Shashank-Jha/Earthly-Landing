@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #174ef1;
+  --secondary-color:#00ED64;
 }
 
 body {
@@ -56,7 +57,7 @@ header > img {
   padding-top: 5px;
 }
 .sticker-rev {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   color: white;
   font-weight: bold;
   position: relative;
@@ -344,3 +345,19 @@ img {
   }
 }
 
+footer{
+    display: flex;
+    padding: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div{
+    margin:1rem;
+    width: 50%;
+}
+
+footer > a{
+    margin:1rem;
+}
